@@ -26,9 +26,9 @@ Utilize your investigative skills by exploring multiple locations, uncovering cl
 - Python 3.x (any stable version)
 - No third-party libraries necessary
 
-### 🚀 Getting Started
+## 🚀 Getting Started
 
-## Installation
+### Installation
 
 1. Clone the repository:
     ```
@@ -40,7 +40,7 @@ Utilize your investigative skills by exploring multiple locations, uncovering cl
     python case_of_missing_ruby.py
     ```
     
-## Usage
+### Usage
 
 Simply follow the in-game prompts to navigate the investigation, collect clues, and solve the mystery.
 
@@ -64,8 +64,9 @@ The game logic revolves around a continuous loop that:
 - Validates inputs and tracks discovered clues
 - Checks player accusations against the true culprit(s)
 - Provides descriptive feedback and game progression
+
 Example:
-'''python
+```
 while True:
     choice = input("Your choice: ").lower()
     if choice == "quit":
@@ -74,12 +75,12 @@ while True:
         # logic for accusation and result
     else:
         # investigation logic
-'''
+```
 
 
 ## 📝 Sample Gameplay
 
-'''text
+```text
 Enter your detective name: John
 
 Welcome, Detective John. A priceless ruby, 'The Crimson Star,' has been stolen.
@@ -97,7 +98,7 @@ Type 'quit' to exit the game.
 Your choice: 2
 
 Inside the security booth, you find a small, coded keycard hidden under the desk.
-'''
+```
 
 ## Extensibility
 
@@ -120,13 +121,13 @@ Enjoyed solving the mystery? Help make Case of the Missing Ruby even better! Her
 
 1. Fork the repository.
 2. Clone your fork locally:
-'''bash
+```bash
 git clone https://github.com/yourusername/MissingRuby-CLI.git
-'''
+```
 3. Create a branch for your changes:
-'''bash
+```bash
 git checkout -b feature/your-feature-name
-'''
+```
 4. Implement your improvements.
 5. Push your changes and open a pull request.
 Every contribution counts and is greatly appreciated. Thank you for helping crack the case!
