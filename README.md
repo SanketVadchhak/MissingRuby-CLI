@@ -4,20 +4,6 @@
 
 Case of the Missing Ruby is a command-line interactive mystery game written in Python. Assume the role of a detective assigned to recover the Crimson Star, a priceless ruby stolen from a museum vault. Investigate suspects, collect clues, and use deductive reasoning to solve the case and catch the culprit(s).
 
-## Table of Contents
-
-- [Game Premise](#game-premise)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Code Structure](#code-structure)
-- [Sample Gameplay](#sample-gameplay)
-- [Extensibility](#extensibility)
-- [Contributing](#contributing)
-- [License](#license)
-
-
 ## 🕵️ Game Premise
 
 The Crimson Star ruby has been stolen from the museum vault.
